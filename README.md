@@ -9,11 +9,11 @@ motor A - 19, 21
 
 
 
-![](./image/20230819_camjam_kit3.jpg)
+![](./20230819_camjam_kit3.jpg)
 
 ### Rpi pico pinouts
 
-![](./image/20230819_pico_pinout.jpg)
+![](./20230819_pico_pinout.jpg)
 
 
 ### motor test code with GPIO zero for Rpi
