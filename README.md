@@ -35,10 +35,32 @@ GPIO.output(8, 1)
 ```
 
 
+### motor test code for pico
+
+To test, install picozero and copy the file pico_jam.py into the /lib directory of pico device.
+use the following test code. the kit should move forward for 1 second then stop.
+
+```python
+import time  # Import the Time library
+#from picozero import *
+from pico_jam import CamJamKitRobot  # Import the CamJamKit library for pico 
+
+robot = CamJamKitRobot()
+
+# Turn the motors on
+robot.forward()
+
+# Wait for 1 seconds
+time.sleep(1)
+
+# Turn the motors off
+robot.stop()
+
+```
 
 ### Electrical interface compatibility issue
 
-From the motor test code with GPIO zero lib, the pins to drive motors are (7,8,9,10).
+From the motor test code with GPIO zero lib, the pins to drive motors are  GP07,GP08 (Left) and GP09,GP10 (Right).
 
 The controller was designed to plug into the expansion port of the RPi.
 
