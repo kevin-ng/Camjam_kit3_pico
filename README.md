@@ -37,6 +37,7 @@ GPIO.output(8, 1)
 
 ### motor test code for pico
 
+Prior to test, need to patch wires from the pico to the controller kit. see [patch wire recommendation](#Patch-wire-recommendation) below. 
 To test, install picozero and copy the file pico_jam.py into the /lib directory of pico device.
 use the following test code. the kit should move forward for 1 second then stop.
 
