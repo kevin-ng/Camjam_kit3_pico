@@ -3,9 +3,9 @@ Discuss issues with porting existing lessons of Camjam motor kit to pico
 
 ### Camjam motor controller kit pinouts for RPi
 
-motor A - 19, 21
+motor A - GP9, GP10
 
- motor B - 8, 7
+ motor B - GP7, GP8
 
 
 
